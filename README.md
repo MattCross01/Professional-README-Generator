@@ -1,5 +1,5 @@
 # Good-README-Generator
-Command-line application  for quick and easy README files to get started.
+Command-line application  for quick and easy README files to get started.<br><br>
 MIT<br>[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## About this application:
