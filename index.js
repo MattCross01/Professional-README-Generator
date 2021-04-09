@@ -96,5 +96,17 @@ function generateMD(answers){
 
 }
 
+async function init() {
+    console.log("Welcome to my README generator!");
+    try{
+        const answers=await promptUser();
+        const md=generateMD(answers);
+        await writeFileAsync("README.md",md);
+        console.log("Success writing to README.md !!");
+    } catch(err){
+        console.log(err);
+    }
+}
+init();
 
 
