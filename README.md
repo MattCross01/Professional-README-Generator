@@ -1,8 +1,8 @@
 
-# Profession README Generator
+# Professional README Generator
 Perl<br>[![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)
 ## Description 
-     Generates professional README.md files
+     This program generates professional READEME.md layouts
 ## Table of contents
 * [Description](#description)
 * [Installation](#installation)
@@ -12,19 +12,20 @@ Perl<br>[![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298
 * [Tests](#tests)
 * [Questions](#questions)
 ## Installation
-        The application requires `inquirer` and `util` node packages 
+        You must run "npm install inquirer" then run "node index.js"
 ## Usage 
-        You must run `npm install inquirer` and `npm install util` before executing `node index.js`
+        The user will have a baseline README with basic conent to explain/document the application
 ## License
         undefined
+        MIT
 ## Contributing
         MattCross01
 ## Tests
-        Placeholder
+        Application can be manually tested or using any test tool
 ## Questions
-        - for questions regarding this application please contact me at:
-        - E-mail undefined
-        - Github:
-        <https://github.com/MattCross01>
+For questions regarding this application please contact me at:
+    - E-mail mountaindew2141@outlook.com
+    - Github:
+    <https://github.com/MattCross01>
 
     
