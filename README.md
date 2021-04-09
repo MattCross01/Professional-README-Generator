@@ -1,23 +1,30 @@
 
-# Good README Generator
+# Profession README generator
      ## Perl <br> [![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)
-## Description 
+    ## Description 
      Generates professional looking README.md files
 ## Table of contents
-        Overview, Installation, Running The Program
+* Description(#description)
+* Installation(#installation)
+* Usage(#usage)
+* License(#license)
+* Contributing(#contributing)
+* Tests(#tests)
+* Questions(#questions)
 ## Installation
-            Installation instructions to be placed here
+       t    he application requires `inquirer` and `util` node packages. 
 ## Usage 
-        The user will execute a node program, a prompt will ask you questions to generate the README structure. Once all questions have been answered, a new README file is written 
+       you must run `npm install inquirer` and `npm install util` before executing `node index.js`
 ## License
-        IBM
+       undefined
 ## Contributing
-        MattCross01
+       MattCross01
 ## Tests
-        can be manually tested 
+       placeholder
 ## Questions
-        - for questions regarding this application please contact me at:
-        - E-mail undefined
-        - Github:
-        [<https://github.com/#77507589>]
+       - for questions regarding this application please contact me at:
+       - E-mail undefined
+       - Github:
+       <https://github.com/MattCross01>
+
     

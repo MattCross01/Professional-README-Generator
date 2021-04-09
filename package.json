@@ -1,7 +1,7 @@
 {
   "name": "02-Homework",
   "version": "1.0.0",
-  "description": "",
+  "description": "Generates professional looking README.md files ## Table of contents         Overview, Installation, Running The Program ## Installation             Installation instructions to be placed here ## Usage          The user will execute a node program, a prompt will ask you questions to generate the README structure. Once all questions have been answered, a new README file is written  ## License         IBM ## Contributing         MattCross01 ## Tests         can be manually tested  ## Questions         - for questions regarding this application please contact me at:         - E-mail undefined         - Github:         [<https://github.com/#77507589>]",
   "main": "index.js",
   "dependencies": {
     "inquirer": "^8.0.0",
@@ -11,7 +11,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattCross01/Professional-README-Generator.git"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MattCross01/Professional-README-Generator/issues"
+  },
+  "homepage": "https://github.com/MattCross01/Professional-README-Generator#readme"
 }
