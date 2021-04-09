@@ -16,7 +16,7 @@ Node.js Command-line application for quick and easy README files to get started.
 
 ## Usage:
 This `Node.js` application can be used by any one who would like to save time and still have a good README baseline that complies with the most used guidelines on making .md files.
-a command line prompt will guide the user thru a series of questions directed to auto populate the README.md file once all the questions of the prompt are done. 
+a command line prompt will guide the user through a series of questions directed to auto populate the README.md file once all the questions of the prompt are done. 
 ---
 - Here it is an example of the questions prompted when the application is started:
     ![ApplicationStatingImg](https://i.ibb.co/WHWRyYR/questions.png)
