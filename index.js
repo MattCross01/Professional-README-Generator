@@ -70,34 +70,34 @@ return inquirer.prompt([
 // MD file layout and answers
 function generateMD(answers){
     var profile=("https://github.com/"+answers.github)
-    return `
+return `
 # ${answers.title}
-    ${answers.badge ==="Apache" ? "## Apache <br> [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)" : answers.badge ==="MIT" ? " ## MIT <br> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)" : answers.badge==="IBM" ? " ## IBM <br> [![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)" : " ## Perl <br> [![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)"}
-    ## Description 
-    ${answers.description}
+${answers.badge ==="Apache" ? "Apache"+""+'<br>'+""+"[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)" : answers.badge ==="MIT" ? "MIT"+""+'<br>'+""+"[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)" : answers.badge==="IBM" ? "IBM"+""+'<br>'+""+"[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)" : "Perl"+""+'<br>'+""+"[![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)"}
+## Description 
+     ${answers.description}
 ## Table of contents
-* Description(#description)
-* Installation(#installation)
-* Usage(#usage)
-* License(#license)
-* Contributing(#contributing)
-* Tests(#tests)
-* Questions(#questions)
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 ## Installation
-       ${answers.instal}
+        ${answers.instal}
 ## Usage 
-       ${answers.usage}
+        ${answers.usage}
 ## License
-       ${answers.badge}
+        ${answers.badge}
 ## Contributing
-       ${answers.contributions}
+        ${answers.contributions}
 ## Tests
-       ${answers.test}
+        ${answers.test}
 ## Questions
-       - for questions regarding this application please contact me at:
-       - E-mail ${answers.email}
-       - Github:
-       <${profile}>
+        - for questions regarding this application please contact me at:
+        - E-mail ${answers.email}
+        - Github:
+        <${profile}>
 
     `; 
 
