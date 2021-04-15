@@ -28,6 +28,8 @@ a command line prompt will guide the user through a series of questions directed
 The application requires `inquirer` and `util` node packages. 
 Run `npm install inquirer` and `npm install util` before executing `node index.js`
 
+View a video demonstration of the application: https://drive.google.com/file/d/1L1OBEMZ_T8ASsatspCRWjfV9fYo9v659/view?usp=sharing
+
 ## License
 I have used the MIT license for this application see repository documentation 
 <https://github.com/MattCross01/Professional-README-Generator/blob/master/LICENSE>
